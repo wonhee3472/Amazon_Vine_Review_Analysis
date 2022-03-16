@@ -4,7 +4,7 @@
 
 * From the [Amazon Review Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), pick a dataset to analyze. **All the datasets have the same data columns as shown below**
 
-![]('Amazon_Review_Datasets.png')
+![](Amazon_Review_Datasets.png)
 
 * Create a new database with Amazon RDS
 
