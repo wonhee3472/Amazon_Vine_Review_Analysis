@@ -6,8 +6,8 @@
 
 ![](Amazon_Review_Datasets.png)
 
-* Create a new database with Amazon RDS
+* Set up a Postgres database using AWS' relational databse service (RDS)
 
-* Create a new database in Amazon RDS
+* In pgAdmin, run a new query to create the tables for the new database
 
-* Run a new query to create the tables for the new database
+* `Extract` one of the datasets and create a new DataFrame
