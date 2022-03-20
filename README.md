@@ -27,6 +27,7 @@
 ## Pipeline of Determining Bias of Vine Reviews
 
 * The same dataset (`furniture`) from above was selected for analysis
-* 
-
+* Filter the data and create a new DataFrame or table to retrieve all the rows where the `total_votes count is equal to or greater than 20` to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on.
+![](screenshots/totalvotes_df.png)
+* Filter the new DataFrame or table created above and create a new DataFrame or table to retrieve all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%
 
