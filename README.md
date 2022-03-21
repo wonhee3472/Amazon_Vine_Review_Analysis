@@ -46,4 +46,11 @@
 #### Percentage of 5-star Vine/Paid Reviews & 5-star Non-Vine/Non-Paid Reviews
   > Percentage of 5-star Vine/Paid Reviews: `1,356/2,775 * 100 = 48.9%`
 
-  > Percentage of 5-star Non-Vine/Non-Paid Reviews: `446,360/789,338 * 100 = 56.5%` 
+  > Percentage of 5-star Non-Vine/Non-Paid Reviews: `446,360/789,338 * 100 = 56.5%`
+
+## Summary
+* Performing the same analysis with "helpful" reviews (a.k.a total votes greater than 20 and the number of helpful_votes divided by total_votes is equal to or greater than 50%), 
+  - Total Number of Helpful Vine/Paid Reviews: 136
+  ![](screenshots/helpful_vine_review_count.png)
+  - Total Number of Helpful Non-Vine/Unpaid Reviews: 18,019
+  ![](screenshots/helpful_no_vine_review_count.png)
