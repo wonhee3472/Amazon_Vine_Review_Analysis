@@ -28,8 +28,12 @@
 
 * The same dataset (`furniture`) from above was selected for analysis
 * Total Number of Furniture Reviews
-!()[screenshots/total_number_views.png]
+![](screenshots/total_number_views.png)
 * Total Number of `5-star` Furniture Reviews
-!()[screenshots/total_number_5_star_reviews.png]
-* Totla Number of `Helpful 5-star` Furniture Reviews
-!()[screenshots/total_number_helpful_5_star_reviews.png]
+![](screenshots/total_number_5_star_reviews.png)
+* Total Number of `Helpful 5-star` Furniture Reviews
+![](screenshots/total_number_helpful_5_star_reviews.png)
+* Total number of all other Reviews that are `not 5 star rated` & Total Number of all other `non 5-star` helpful Reviews
+![](screenshots/all_other_reviews.png)
+
+
