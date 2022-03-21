@@ -24,16 +24,26 @@
   ![](screenshots/vine_table.png)
 
 
-## Pipeline of Determining Bias of Vine Reviews
+## Results
 
 * The same dataset (`furniture`) from above was selected for analysis
-* Total Number of Furniture Reviews
-![](screenshots/total_number_views.png)
-* Total Number of `5-star` Furniture Reviews
-![](screenshots/total_number_5_star_reviews.png)
-* Total Number of `Helpful 5-star` Furniture Reviews
-![](screenshots/total_number_helpful_5_star_reviews.png)
-* Total number of all other Reviews that are `not 5 star rated` & Total Number of all other `non 5-star` helpful Reviews
-![](screenshots/all_other_reviews.png)
+* Analyses were done according to the 3 following questions:
+  > How many Vine reviews and non-Vine reviews were there?
+
+  > How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+  
+  > What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+
+### Total Number of Vine/Paid Reviews & Non-Vine/Non-Paid Reviews
+![](screenshots/total_vine_review_count.png)
+![](screenshots/total_novine_review_count.png)
 
 
+### Total Number of 5-star Vine/Paid Reviews & 5-star Non-Vine/Non-Paid Reviews
+![](screenshots/star_5_vine_review_count.png)
+![](screenshots/star_5_novine_review_count.png)
+
+## Percentage of 5-star Vine/Paid Reviews & 5-star Non-Vine/Non-Paid Reviews
+  > Percentage of 5-star Vine/Paid Reviews: `1,356/2,775 * 100 = 48.9%`
+
+  > Percentage of 5-star Non-Vine/Non-Paid Reviews: `446,360/789,338 * 100 = 56.5%` 
