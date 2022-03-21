@@ -34,16 +34,16 @@
   
   > What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
-### Total Number of Vine/Paid Reviews & Non-Vine/Non-Paid Reviews
+#### Total Number of Vine/Paid Reviews & Non-Vine/Non-Paid Reviews
 ![](screenshots/total_vine_review_count.png)
 ![](screenshots/total_novine_review_count.png)
 
 
-### Total Number of 5-star Vine/Paid Reviews & 5-star Non-Vine/Non-Paid Reviews
+#### Total Number of 5-star Vine/Paid Reviews & 5-star Non-Vine/Non-Paid Reviews
 ![](screenshots/star_5_vine_review_count.png)
 ![](screenshots/star_5_novine_review_count.png)
 
-## Percentage of 5-star Vine/Paid Reviews & 5-star Non-Vine/Non-Paid Reviews
+#### Percentage of 5-star Vine/Paid Reviews & 5-star Non-Vine/Non-Paid Reviews
   > Percentage of 5-star Vine/Paid Reviews: `1,356/2,775 * 100 = 48.9%`
 
   > Percentage of 5-star Non-Vine/Non-Paid Reviews: `446,360/789,338 * 100 = 56.5%` 
