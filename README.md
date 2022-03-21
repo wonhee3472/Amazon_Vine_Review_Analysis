@@ -35,22 +35,50 @@
   > What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
 #### Total Number of Vine/Paid Reviews & Non-Vine/Non-Paid Reviews
-![](screenshots/total_vine_review_count.png)
-![](screenshots/total_novine_review_count.png)
+  - Total Number of Vine/Paid Reviews: `2,775`
+  ![](screenshots/total_vine_review_count.png)
+
+  - Total Number of Non-Vine/Unpaid Reviews: `789,338`
+  ![](screenshots/total_novine_review_count.png)
 
 
 #### Total Number of 5-star Vine/Paid Reviews & 5-star Non-Vine/Non-Paid Reviews
-![](screenshots/star_5_vine_review_count.png)
-![](screenshots/star_5_novine_review_count.png)
+  - Total Number of 5-star Vine/Paid Reviews: `1,356`
+  ![](screenshots/star_5_vine_review_count.png)
+  - Total Number of 5-star Non-Vine/Unpaid Reviews: `446,360`
+  ![](screenshots/star_5_novine_review_count.png)
 
 #### Percentage of 5-star Vine/Paid Reviews & 5-star Non-Vine/Non-Paid Reviews
   > Percentage of 5-star Vine/Paid Reviews: `1,356/2,775 * 100 = 48.9%`
 
   > Percentage of 5-star Non-Vine/Non-Paid Reviews: `446,360/789,338 * 100 = 56.5%`
 
-## Summary
 * Performing the same analysis with "helpful" reviews (a.k.a total votes greater than 20 and the number of helpful_votes divided by total_votes is equal to or greater than 50%), 
-  - Total Number of Helpful Vine/Paid Reviews: 136
+  - Total Number of Helpful Vine/Paid Reviews: `136`
   ![](screenshots/helpful_vine_review_count.png)
-  - Total Number of Helpful Non-Vine/Unpaid Reviews: 18,019
+  - Total Number of Helpful Non-Vine/Unpaid Reviews: `18,019`
   ![](screenshots/helpful_no_vine_review_count.png)
+
+  - Total Number of Helpful 5-star Vine/Paid Reviews: `74`
+  - Total Number of Helpful 5-star Non-Vine/Unpaid Reviews: `8,482`
+  ![](screenshots/Total_Number_5_star_Vine_NonVine.png)
+
+  - Percentage of Helpful 5-star Vine/Paid Reviews: `74/136 * 100 = 54.4%`
+  - Percentage of Helpful 5-star Non-Vine/Paid Reviews: `8,482/18,019 * 100 = 47.1%`
+  ![](screenshots/prcnt_5star_helpful_vine_novine.png)
+
+## Summary
+  1. A total number of Vine/Paid reviews compared to that of Non-Vine/Non-Paid reviews is very small: `2,775 (Vine) vs. 789,398 (Non-Vine)`
+  2. Similarly, a total number of 5-star Vine/Paid reviews compared to that of 5-star Non-Vine/Non-Paid reviews is also very small: `1,356 (Vine) vs. 446,360 (Non-Vine)`
+  3. Relatively speaking, percentages for these two different types of review look similar as they are both around `50%`. However, it's not reasonable to think that they carry the same weight since the sample size for the non-vine/unpaid reviews is much greater.
+
+## Recommendation
+To make the best insight out of the `Vine/Paid Review` analysis, I suggest another analysis within the `Vine` and `Non-Vine` reviews. To be more clear, by having a breakdown of ratings from `1-star` to `5-star` for the `Vine/Paid` and `Non-Vine/Unpaid` reviews, it'd be easier to see if there was any positive bias in the `Vine/Paid` Reviews.
+
+* Vine/Paid Review Rating Breakdown:
+![](screenshots/vine_review_rating_breakdown.png)
+
+* Non-Vine/Unpaid Review Rating Breakdown:
+![](screenshots/novine_review_rating_breakdown.png)
+
+As seen in the two figures, `Non-Vine/Unpaid` reviews have more unfavorable ratings for the furniture product than `Vine/Paid` reviews as there are about a total of **24%** `1-3` ratings for `Non-Vine/Unpaid` reviews whereas there are about a total of **16%** `1-3` ratings for `Vine/Paid` reviews. Which means `4-5` ratings add up to **84%** for `Vine/Paid` reviews while it's **76%** for the same category with `Non-Vine/Unpaid`. 8% may be a small number relatively but it definitely shows there's a difference between the two types of review.  
